@@ -8,7 +8,7 @@ const DisplayProduct = () => {
     const { data: category = [] } = useQuery({
         queryKey: ["category"],
         queryFn: async () => {
-            const res = await fetch(`http://localhost:5000/Product`);
+            const res = await fetch(`https://food-fanda-server.vercel.app/Product`);
             const data = await res.json();
             return data;
         }

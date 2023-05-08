@@ -10,14 +10,14 @@ const CartList = () => {
     const {data: cart = [], refetch} = useQuery({
         queryKey: ["cart", user?.email],
         queryFn: async ()=>{
-            const res = await fetch(`http://localhost:5000/cart?email=${user?.email}`);
+            const res = await fetch(`https://food-fanda-server.vercel.app/cart?email=${user?.email}`);
             const data = await res.json();
             return data;
         }
     })
 
     const deleteCart = (id) => {
-        fetch(`http://localhost:5000/cart/${id}`, {
+        fetch(`https://food-fanda-server.vercel.app/cart/${id}`, {
             method: "DELETE"
         }).then(res => res.json())
             .then(data => {
@@ -29,7 +29,7 @@ const CartList = () => {
     }
 
     const handlerAllDelete = (email)=>{
-        fetch(`http://localhost:5000/cart?email=${email}`, {
+        fetch(`https://food-fanda-server.vercel.app/cart?email=${email}`, {
             method: "DELETE"
         }).then(res=> res.json())
         .then(data=> {

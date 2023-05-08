@@ -12,14 +12,14 @@ const Wishlist = () => {
     const {data: wishlist = [], refetch} = useQuery({
         queryKey: ["wishlist", user?.email],
         queryFn: async ()=>{
-            const res = await fetch(`http://localhost:5000/wishlist?email=${user?.email}`);
+            const res = await fetch(`https://food-fanda-server.vercel.app/wishlist?email=${user?.email}`);
             const data = await res.json();
             return data;
         }
     })
 
     const deleteWishlist = (id)=>{
-        fetch(`http://localhost:5000/wishlist/${id}`, {
+        fetch(`https://food-fanda-server.vercel.app/wishlist/${id}`, {
             method: "DELETE"
         }).then(res=> res.json())
         .then(data=> {
@@ -31,7 +31,7 @@ const Wishlist = () => {
     }
 
     const handlerAllDelete = (email)=>{
-        fetch(`http://localhost:5000/wishlist?email=${email}`, {
+        fetch(`https://food-fanda-server.vercel.app/wishlist?email=${email}`, {
             method: "DELETE"
         }).then(res=> res.json())
         .then(data=> {

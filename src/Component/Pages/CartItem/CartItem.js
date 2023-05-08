@@ -32,7 +32,7 @@ const CartItem = () => {
         user: user?.email,
     }
     const addWishList = () => {
-        fetch(`http://localhost:5000/wishlist`, {
+        fetch(`https://food-fanda-server.vercel.app/wishlist`, {
             method: "POST",
             headers: {
                 "content-type": "application/json"
@@ -48,7 +48,7 @@ const CartItem = () => {
     }
 
     const addToCart = () => {
-        fetch(`http://localhost:5000/cart`, {
+        fetch(`https://food-fanda-server.vercel.app/cart`, {
             method: "POST",
             headers: {
                 "content-type": "application/json"

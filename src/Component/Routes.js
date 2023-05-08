@@ -26,13 +26,13 @@ export const router = createBrowserRouter([
         {
             path:'/category/:id',
             element:<CategoryProduct/>,
-            loader: ({params})=> fetch(`http://localhost:5000/product/${params.id}`)
+            loader: ({params})=> fetch(`https://food-fanda-server.vercel.app/product/${params.id}`)
             
         }, 
         {
             path:'/cart/:_id/:id',
             element:<PrivateRoute><CartItem/></PrivateRoute>,
-            loader: ({params})=> fetch(`http://localhost:5000/cart/${params._id}/${params.id}`)
+            loader: ({params})=> fetch(`https://food-fanda-server.vercel.app/cart/${params._id}/${params.id}`)
            
             
         }, 

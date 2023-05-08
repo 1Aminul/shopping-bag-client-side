@@ -45,7 +45,7 @@ const AuthProvider = ({children}) => {
     const {data: products = []} = useQuery({
         queryKey: ["products"],
         queryFn: async ()=>{
-            const res = await fetch(`http://localhost:5000/product`);
+            const res = await fetch(`https://food-fanda-server.vercel.app/product`);
             const data = await res.json();
             return data;
         }
@@ -53,7 +53,7 @@ const AuthProvider = ({children}) => {
     const {data: wishlist = [], refetch} = useQuery({
         queryKey: ["wishlist", user?.email],
         queryFn: async ()=>{
-            const res = await fetch(`http://localhost:5000/wishlist?email=${user?.email}`);
+            const res = await fetch(`https://food-fanda-server.vercel.app/wishlist?email=${user?.email}`);
             const data = await res.json();
             return data;
         }
@@ -61,7 +61,7 @@ const AuthProvider = ({children}) => {
     const {data: cart = []} = useQuery({
         queryKey: ["cart", user?.email],
         queryFn: async ()=>{
-            const res = await fetch(`http://localhost:5000/cart?email=${user?.email}`);
+            const res = await fetch(`https://food-fanda-server.vercel.app/cart?email=${user?.email}`);
             const data = await res.json();
             return data;
 

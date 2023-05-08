@@ -10,7 +10,7 @@ const PaymentSuccess = () => {
     const {data: order = [], refetch} = useQuery({
         queryKey: ["order", transactionId],
         queryFn: async ()=>{
-            const res = await fetch(`http://localhost:5000/payment/transaction/${transactionId}`);
+            const res = await fetch(`https://food-fanda-server.vercel.app/payment/transaction/${transactionId}`);
             const data = await res.json();
             return data;
         }
