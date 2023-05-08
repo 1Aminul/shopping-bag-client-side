@@ -1,0 +1,7 @@
+.cart {
+    display: none;
+}
+
+.img-card:hover .cart{
+    display: block;
+}

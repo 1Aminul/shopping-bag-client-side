@@ -1,0 +1,632 @@
+[
+    {
+        "productID": 1,
+        "categoryName": "Fruits",
+        "image": "https://t3.ftcdn.net/jpg/00/50/50/70/240_F_50507014_BiL29pNtSj2GNQIsRLXJMu3UBwJyNpiP.jpg",
+        "image2": "https://t4.ftcdn.net/jpg/02/70/48/37/240_F_270483752_utMOlYHyqko8LLdeVdlrx5WjHqQocCbM.jpg",
+        "categoryItem": [
+            {
+                "id": 1,
+                "name": "Apple",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/50/50/70/240_F_50507014_BiL29pNtSj2GNQIsRLXJMu3UBwJyNpiP.jpg",
+                "price": 320,
+                "origin": "Jarman"
+            },
+            {
+                "id": 2,
+                "name": "guayaba",
+                "imgURL": "https://t3.ftcdn.net/jpg/03/20/67/44/240_F_320674488_ECPiBU7w7BRNiplkfG18dgt8ZL0kWBnb.jpg",
+                "price": 220,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 3,
+                "name": "Lichi",
+                "imgURL": "https://t3.ftcdn.net/jpg/01/35/58/26/240_F_135582658_yErZXAHlZM6ViHp2Y7fDRzmKxN6yYtqN.jpg",
+                "price": 180,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 4,
+                "name": "Banana",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/33/88/02/240_F_33880235_4SaVkmhk6tEVPoG8zoWItRrBjj3ukkle.jpg",
+                "price": 90,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 5,
+                "name": "Orange",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/61/19/53/240_F_61195341_rR4lMptEspj16GvOdmy0MaMznSRveh2M.jpg",
+                "price": 280,
+                "origin": "UK"
+            },
+            {
+                "id": 6,
+                "name": "Watermelon",
+                "imgURL": "https://t4.ftcdn.net/jpg/02/27/04/15/240_F_227041521_R30fm1zPGoX3hQeGkGgFAKykT5irrv79.jpg",
+                "price": 320,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 7,
+                "name": "Fresh Coconut",
+                "imgURL": "https://t4.ftcdn.net/jpg/01/07/40/99/240_F_107409989_Sk7gjTTPepClPvdrK1WH9UXjY0WxRgLj.jpg",
+                "price": 120,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 8,
+                "name": "Papaya",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/22/93/38/240_F_22933844_jQJsQhasB07zVCyjLUBIrBQJH0HWX0M7.jpg",
+                "price": 160,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 9,
+                "name": "Mango",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/52/87/43/240_F_52874381_Ucxx67h9KLuxSXiNGcsmHfSjAuqRXqDr.jpg",
+                "price": 220,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 10,
+                "name": "Jackfruit",
+                "imgURL": "https://t3.ftcdn.net/jpg/03/12/06/56/240_F_312065659_U2VTxKl7eLCsIpxohSbPSXf4lAQh76LS.jpg",
+                "price": 450,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 11,
+                "name": "Grapes (Black)",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/70/94/63/240_F_70946377_VJXdpJqld6XOsOTO6lt95ieZSxGO0faM.jpg",
+                "price": 320,
+                "origin": "Malaysia"
+            },
+            {
+                "id": 12,
+                "name": "Pineapple",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/40/36/49/240_F_40364956_poDftweCzHgPqP6atwAn2BZ40vTnbm1H.jpg",
+                "price": 140,
+                "origin": "Bangladesh"
+            }
+        ]
+
+    },
+    {
+        "productID": 2,
+        "categoryName": "Vegetables",
+        "image": "https://t3.ftcdn.net/jpg/00/34/61/76/240_F_34617669_p9r4GrR83TBEXCZrRny6AaigqPUEPFp5.jpg",
+        "image2": "https://t4.ftcdn.net/jpg/02/04/22/11/240_F_204221143_wFMdSxNC7OJINVpKw50EmnhU1NFlQB2C.jpg",
+        "categoryItem": [
+            {
+                "id": 1,
+                "name": "Potato",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/41/30/10/240_F_41301053_AbLi3hlosbLajBo7lQdNyfGz9eusxY1x.jpg",
+                "price": 320,
+                "origin": "Jarman"
+            },
+            {
+                "id": 2,
+                "name": "Tomato",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/34/61/76/240_F_34617669_p9r4GrR83TBEXCZrRny6AaigqPUEPFp5.jpg",
+                "price": 220,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 3,
+                "name": "Radish",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/35/72/82/240_F_35728224_g2nGbJcgN1D1zymNyiEQO2XTWV0WeOgA.jpg",
+                "price": 180,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 4,
+                "name": "Brinjal",
+                "imgURL": "https://t4.ftcdn.net/jpg/03/69/98/49/240_F_369984944_mp5bcE534T45okjhprMta7z6ujQlaYXC.jpg",
+                "price": 90,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 5,
+                "name": "Pumpkin",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/57/13/63/240_F_57136319_lcUZ6ETec1DbJMcSXPDdWgB8xFaYDOwp.jpg",
+                "price": 280,
+                "origin": "UK"
+            },
+            {
+                "id": 6,
+                "name": "Cauliflower",
+                "imgURL": "https://t4.ftcdn.net/jpg/02/27/04/15/240_F_227041521_R30fm1zPGoX3hQeGkGgFAKykT5irrv79.jpg",
+                "price": 320,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 7,
+                "name": "Cabage",
+                "imgURL": "https://t3.ftcdn.net/jpg/03/02/06/08/240_F_302060856_AZt9tspxvpi7n8FeRWFudsC8nX16pnUp.jpg",
+                "price": 120,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 8,
+                "name": "Capsicum",
+                "imgURL": "https://t4.ftcdn.net/jpg/02/87/25/37/240_F_287253716_I1seSRet5pt8YGBRRcTbPPV1WesM00n9.jpg",
+                "price": 160,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 9,
+                "name": "Chili",
+                "imgURL": "https://t4.ftcdn.net/jpg/02/52/70/81/240_F_252708149_ND6PlbiuLN5AHZ75k7Tc6kxQY840AyCN.jpg",
+                "price": 220,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 10,
+                "name": "Ladys finger",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/93/87/58/240_F_93875874_u9pFhj8A6MNFchnUgNTAAAWnmIA4F4Y0.jpg",
+                "price": 450,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 11,
+                "name": "Bitter Gaurd",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/97/92/16/240_F_97921621_wb7WQNaRWgfB3flCNGSQY8nz7ZlJtfSf.jpg",
+                "price": 320,
+                "origin": "Malaysia"
+            },
+            {
+                "id": 12,
+                "name": "Peas",
+                "imgURL": "https://t3.ftcdn.net/jpg/01/71/80/24/240_F_171802439_YmqJrXmvTCKQH72ylhz8sdCFjIJZRnhq.jpg",
+                "price": 140,
+                "origin": "Bangladesh"
+            }
+        ]
+
+    },
+    {
+        "productID": 3,
+        "categoryName": "Fish",
+        "image": "https://t4.ftcdn.net/jpg/00/35/73/57/240_F_35735748_LmD9lfP8Oa7DAdKkwG3fGuWSLCKWNddY.jpg",
+        "image2": "https://t3.ftcdn.net/jpg/02/61/69/94/240_F_261699466_XNgHbyKQHXKwiiJUgzbkbVWyb69S1HkO.jpg",
+        "categoryItem": [
+            {
+                "id": 1,
+                "name": "Hilsha",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/35/73/57/240_F_35735748_LmD9lfP8Oa7DAdKkwG3fGuWSLCKWNddY.jpg",
+                "price": 320,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 2,
+                "name": "Chapila",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/63/40/96/240_F_63409628_L9iPBhnmvkRioj9Nqtm7oquxtgCD4FtF.jpg",
+                "price": 220,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 3,
+                "name": "Boal",
+                "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Wallago_attu_1.jpg/200px-Wallago_attu_1.jpg",
+                "price": 180,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 4,
+                "name": "Curp",
+                "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Common_carp.jpg/200px-Common_carp.jpg",
+                "price": 90,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 5,
+                "name": "Catla",
+                "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Catla_catla.JPG/200px-Catla_catla.JPG",
+                "price": 280,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 6,
+                "name": "Rui",
+                "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Labeo_rohita.JPG/200px-Labeo_rohita.JPG",
+                "price": 320,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 7,
+                "name": "Telapia",
+                "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Fresh_tilapia.jpg/200px-Fresh_tilapia.jpg",
+                "price": 120,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 8,
+                "name": "Rupchada",
+                "imgURL": "https://i.ibb.co/0yZhLjh/download.jpg",
+                "price": 160,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 9,
+                "name": "Sharputi",
+                "imgURL": "https://t3.ftcdn.net/jpg/04/51/56/08/240_F_451560800_zshA3JxfkaiPkHvIwwZ1wCbntAql7N9e.jpg",
+                "price": 220,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 10,
+                "name": "Poya",
+                "imgURL": "https://i.ibb.co/3NLbtyy/download-1.jpg",
+                "price": 450,
+                "origin": "Bangladesh"
+            }
+        ]
+
+    },
+    {
+        "productID": 4,
+        "categoryName": "Meat",
+        "image": "https://t4.ftcdn.net/jpg/00/83/36/05/240_F_83360582_oxUzWNwMqPLewOONSG5V8Kb6kfmDkdeP.jpg",
+        "image2": "https://t4.ftcdn.net/jpg/01/88/37/51/240_F_188375143_24qQyXJJrPOcCuVFMXX6vSaESwOMtz5l.jpg",
+        "categoryItem": [
+            {
+                "id": 1,
+                "name": "Beef",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/83/36/05/240_F_83360582_oxUzWNwMqPLewOONSG5V8Kb6kfmDkdeP.jpg",
+                "price": 820,
+                "origin": "Jarman"
+            },
+            {
+                "id": 2,
+                "name": "Chicken",
+                "imgURL": "https://t3.ftcdn.net/jpg/01/36/55/00/240_F_136550049_8KpLHPjaA1QFAs7Swd2PWhJ1ZHJWFmXD.jpg",
+                "price": 260,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 3,
+                "name": "Mutton",
+                "imgURL": "https://t3.ftcdn.net/jpg/02/04/61/82/240_F_204618263_v6wWkUH1lmNr2O9qU1Dvd5BBWgrhqR2b.jpg",
+                "price": 1100,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 4,
+                "name": "Camel pices",
+                "imgURL": "https://t4.ftcdn.net/jpg/02/87/70/51/240_F_287705117_ndjLVVDrG23M1mlFWLwlwFluvd1AaVRE.jpg",
+                "price": 1500,
+                "origin": "Saudi Arab"
+            },
+            {
+                "id": 5,
+                "name": "Cow bot",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/61/19/53/240_F_61195341_rR4lMptEspj16GvOdmy0MaMznSRveh2M.jpg",
+                "price": 490,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 6,
+                "name": "Cow Leg",
+                "imgURL": "https://khulnaservice.com/uploads/product/1905/front/beef-paya.jpg",
+                "price": 320,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 7,
+                "name": "Mutton Leg",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/49/94/11/240_F_49941104_i0DqxTG6Bg2Ki8evBAbA36u8wJhQYxW6.jpg",
+                "price": 120,
+                "origin": "Bangladesh"
+            }
+            
+        ]
+
+    },
+    {
+        "productID": 5,
+        "categoryName": "Summer Fruit",
+        "image": "https://t3.ftcdn.net/jpg/03/20/67/44/240_F_320674488_ECPiBU7w7BRNiplkfG18dgt8ZL0kWBnb.jpg",
+        "image2": "https://t4.ftcdn.net/jpg/02/70/48/37/240_F_270483752_utMOlYHyqko8LLdeVdlrx5WjHqQocCbM.jpg",
+        "categoryItem": [
+            {
+                "id": 1,
+                "name": "Apple",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/50/50/70/240_F_50507014_BiL29pNtSj2GNQIsRLXJMu3UBwJyNpiP.jpg",
+                "price": 320,
+                "origin": "Jarman"
+            },
+            {
+                "id": 2,
+                "name": "guayaba",
+                "imgURL": "https://t3.ftcdn.net/jpg/03/20/67/44/240_F_320674488_ECPiBU7w7BRNiplkfG18dgt8ZL0kWBnb.jpg",
+                "price": 220,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 3,
+                "name": "Lichi",
+                "imgURL": "https://t3.ftcdn.net/jpg/01/35/58/26/240_F_135582658_yErZXAHlZM6ViHp2Y7fDRzmKxN6yYtqN.jpg",
+                "price": 180,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 4,
+                "name": "Banana",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/33/88/02/240_F_33880235_4SaVkmhk6tEVPoG8zoWItRrBjj3ukkle.jpg",
+                "price": 90,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 5,
+                "name": "Orange",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/61/19/53/240_F_61195341_rR4lMptEspj16GvOdmy0MaMznSRveh2M.jpg",
+                "price": 280,
+                "origin": "UK"
+            },
+            {
+                "id": 6,
+                "name": "Watermelon",
+                "imgURL": "https://t4.ftcdn.net/jpg/02/27/04/15/240_F_227041521_R30fm1zPGoX3hQeGkGgFAKykT5irrv79.jpg",
+                "price": 320,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 7,
+                "name": "Fresh Coconut",
+                "imgURL": "https://t4.ftcdn.net/jpg/01/07/40/99/240_F_107409989_Sk7gjTTPepClPvdrK1WH9UXjY0WxRgLj.jpg",
+                "price": 120,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 8,
+                "name": "Papaya",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/22/93/38/240_F_22933844_jQJsQhasB07zVCyjLUBIrBQJH0HWX0M7.jpg",
+                "price": 160,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 9,
+                "name": "Mango",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/52/87/43/240_F_52874381_Ucxx67h9KLuxSXiNGcsmHfSjAuqRXqDr.jpg",
+                "price": 220,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 10,
+                "name": "Jackfruit",
+                "imgURL": "https://t3.ftcdn.net/jpg/03/12/06/56/240_F_312065659_U2VTxKl7eLCsIpxohSbPSXf4lAQh76LS.jpg",
+                "price": 450,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 11,
+                "name": "Grapes (Black)",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/70/94/63/240_F_70946377_VJXdpJqld6XOsOTO6lt95ieZSxGO0faM.jpg",
+                "price": 320,
+                "origin": "Malaysia"
+            },
+            {
+                "id": 12,
+                "name": "Pineapple",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/40/36/49/240_F_40364956_poDftweCzHgPqP6atwAn2BZ40vTnbm1H.jpg",
+                "price": 140,
+                "origin": "Bangladesh"
+            }
+        ]
+
+    },
+    {
+        "productID": 6,
+        "categoryName": "Dry Food",
+        "image": "https://t3.ftcdn.net/jpg/00/93/38/84/240_F_93388422_TRbJ6eYTBJ8UwulLRHM2LFJC42vQFxxY.jpg",
+        "image2": "https://t3.ftcdn.net/jpg/02/61/22/82/240_F_261228201_ZxOh9X9KLn4oZjhYWlPVGU28OSoAwmmM.jpg",
+        "categoryItem": [
+            {
+                "id": 1,
+                "name": "Almond",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/93/38/84/240_F_93388422_TRbJ6eYTBJ8UwulLRHM2LFJC42vQFxxY.jpg",
+                "price": 320,
+                "origin": "Jarman"
+            },
+            {
+                "id": 2,
+                "name": "Pista",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/76/30/44/240_F_76304456_dmHilM1oWAixmR56xa6FeHMktp30yTvR.jpg",
+                "price": 220,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 3,
+                "name": "Kaju",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/67/04/88/240_F_67048816_jnevH8Vldq669QSOYl2l5N02Qr1CRsd1.jpg",
+                "price": 250,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 4,
+                "name": "Apricot ",
+                "imgURL": "https://t4.ftcdn.net/jpg/01/42/22/83/240_F_142228307_H8afIFwbVgUq2CVSSuHHWBC6iWerbo4j.jpg",
+                "price": 400,
+                "origin": "Malaysia"
+            },
+            {
+                "id": 5,
+                "name": "Dates",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/58/97/21/240_F_58972196_BSugXrwh9tJHgWLIZEypgvK6knr0P83R.jpg",
+                "price": 450,
+                "origin": "Saudi Arab"
+            },
+            {
+                "id": 6,
+                "name": "Hazelnuts",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/91/30/39/240_F_91303941_vdAAby4L0Pmf0Gq0Bh5tNcfwIlUL4Eap.jpg",
+                "price": 600,
+                "origin": "Malaysia"
+            },
+            {
+                "id": 7,
+                "name": "Walnuts",
+                "imgURL": "https://t4.ftcdn.net/jpg/01/11/32/33/240_F_111323301_liHhi1mkhpUWdKklHF7z2Qypv85ZgtlH.jpg",
+                "price": 220,
+                "origin": "Malaysia"
+            },
+            {
+                "id": 8,
+                "name": "Pecans ",
+                "imgURL": "https://t4.ftcdn.net/jpg/04/17/78/33/240_F_417783365_zUjezc2EL1Iqx5bk2b7wbUdEbOj3bcxR.jpg",
+                "price": 400,
+                "origin": "Saudi Arab"
+            }
+           
+        ]
+
+    },
+    {
+        "productID": 7,
+        "categoryName": "Dairy",
+        "image": "https://t3.ftcdn.net/jpg/02/81/00/18/240_F_281001895_usd6SIfy6zjBCf7hkVtFGKpG4B3zbwWM.jpg",
+        "image2": "https://t4.ftcdn.net/jpg/03/66/22/39/240_F_366223929_2SCcSIzRwwjs9AyQFgIBGgMS12uzgG4Z.jpg",
+        "categoryItem": [
+            {
+                "id": 1,
+                "name": "Milk",
+                "imgURL": "https://t3.ftcdn.net/jpg/02/81/00/18/240_F_281001895_usd6SIfy6zjBCf7hkVtFGKpG4B3zbwWM.jpg",
+                "price": 120,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 2,
+                "name": "Butter",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/61/10/45/240_F_61104524_nfOrcISgc7ZOAY8kh8NZKhfUsZ6HxRgb.jpg",
+                "price": 220,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 3,
+                "name": "Cheese",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/71/66/69/240_F_71666993_tv6fg6VaVkbffuRA7KphW2S1eC9cm0XV.jpg",
+                "price": 180,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 4,
+                "name": "Yogurt",
+                "imgURL": "https://t3.ftcdn.net/jpg/02/53/96/08/240_F_253960817_dpWv9VmIx10mPRRsEO3ElNM1xoOUQGet.jpg",
+                "price": 300,
+                "origin": "Jarman"
+            },
+            {
+                "id": 5,
+                "name": "Whey",
+                "imgURL": "https://t3.ftcdn.net/jpg/03/37/33/18/240_F_337331823_2UcwS0ZC5RZ0bloTbg9CIPezkAYdiFWb.jpg",
+                "price": 800,
+                "origin": "UK"
+            },
+            {
+                "id": 6,
+                "name": "Sour Cream",
+                "imgURL": "https://t4.ftcdn.net/jpg/02/02/53/67/240_F_202536757_0xZtZ8GXBDMYpK9OBxnRdbFAZA1itlek.jpg",
+                "price": 320,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 7,
+                "name": "Whey",
+                "imgURL": "https://t3.ftcdn.net/jpg/03/37/33/18/240_F_337331823_2UcwS0ZC5RZ0bloTbg9CIPezkAYdiFWb.jpg",
+                "price": 800,
+                "origin": "UK"
+            },
+            {
+                "id":8,
+                "name": "Sour Cream",
+                "imgURL": "https://t4.ftcdn.net/jpg/02/02/53/67/240_F_202536757_0xZtZ8GXBDMYpK9OBxnRdbFAZA1itlek.jpg",
+                "price": 320,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 9,
+                "name": "Fresh Coconut",
+                "imgURL": "https://t4.ftcdn.net/jpg/01/07/40/99/240_F_107409989_Sk7gjTTPepClPvdrK1WH9UXjY0WxRgLj.jpg",
+                "price": 120,
+                "origin": "Bangladesh"
+            }
+            
+        ]
+
+    },
+    {
+        "productID": 8,
+        "categoryName": "Pickle",
+        "image": "https://t3.ftcdn.net/jpg/05/31/49/60/240_F_531496042_zYqqc7VsfJ3NBcyumgV0nhFZ6iAdst7J.jpg",
+        "image2": "https://img.freepik.com/free-photo/front-view-assortment-vegetables-pickled-clear-glass-jars_23-2148738075.jpg?size=626&ext=jpg&uid=R46210217&ga=GA1.1.70084862.1674650474&semt=sph",
+        "categoryItem": [
+            {
+                "id": 1,
+                "name": "Amla pickle",
+                "imgURL": "https://t3.ftcdn.net/jpg/05/31/49/60/240_F_531496042_zYqqc7VsfJ3NBcyumgV0nhFZ6iAdst7J.jpg",
+                "price": 320,
+                "origin": "Jarman"
+            },
+            {
+                "id": 2,
+                "name": " Assorted pickle",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/57/02/62/240_F_57026227_T8YlZe8okuTsdeFsb2FEBSrIMTqjBVQV.jpg",
+                "price": 220,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 3,
+                "name": "Carrot pickle",
+                "imgURL": "https://t3.ftcdn.net/jpg/02/08/50/88/240_F_208508818_HLvmgpTsbcW9AilNo7aoynfRX5YdBldJ.jpg",
+                "price": 180,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 4,
+                "name": "Garlic pickle",
+                "imgURL": "https://t3.ftcdn.net/jpg/00/70/85/36/240_F_70853686_SHFhCKtltwsAO4XeS0Uoocl0Qht835WM.jpg",
+                "price": 200,
+                "origin": "Bangaladesh"
+            },
+            {
+                "id": 5,
+                "name": "Green chili pickle",
+                "imgURL": "https://t4.ftcdn.net/jpg/01/39/27/29/240_F_139272908_HDgGp05fvgsMOWaiARapoU6hXJRidSok.jpg",
+                "price": 140,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 6,
+                "name": "Onion pickle",
+                "imgURL": "https://t3.ftcdn.net/jpg/04/22/96/14/240_F_422961414_VxrpEEfyju6KpPeoyjJmcPyD6LIp3eaP.jpg",
+                "price": 320,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 7,
+                "name": "mango pickle",
+                "imgURL": "https://t4.ftcdn.net/jpg/04/53/08/63/240_F_453086324_bEodi7wVsE9dQNroB8sglehfANhubZP2.jpg",
+                "price": 190,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 8,
+                "name": " Sour lemon pickle",
+                "imgURL": "https://t4.ftcdn.net/jpg/00/50/12/59/240_F_50125993_Mi3R3PVxlgGV0hmC08qLyWinOxKH9HBM.jpg",
+                "price": 160,
+                "origin": "Bangladesh"
+            },
+            {
+                "id": 9,
+                "name": "Red Chili pickle",
+                "imgURL": "https://t4.ftcdn.net/jpg/01/70/53/53/240_F_170535325_X0JUpHX5yWJmeXX6yLPdqeTmAOyoYROv.jpg",
+                "price": 220,
+                "origin": "Bangladesh"
+            }
+           
+        ]
+
+    }
+    
+]
